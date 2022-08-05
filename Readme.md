@@ -19,7 +19,7 @@
 
 ### **Time Duration to Build the Project:-**
 
-- It took me around 4 hours to Build. CSS Position took most of the time. 
+- It took me around 4 hours to Build Website. Adding Customization in Bootstrap took most of the time. 
 
 ---
 
