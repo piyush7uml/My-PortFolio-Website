@@ -178,6 +178,7 @@ header {
 .card-text {
     display: flex;
     justify-content: space-around;
+    margin-top: 1rem;
 }
 
 
@@ -195,6 +196,7 @@ header {
     margin-top: 1rem;
     text-decoration: none;
     cursor: pointer;
+    margin-right: 1rem;
 }
 
 .git-btn:hover {
