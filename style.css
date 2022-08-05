@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root {
+    --theme-color: #E07C24;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: #111111;
+}
+
+.container-fluid {
+    width: 85%;
+    margin: 0 auto;
+} 
+
+/* --------------------------------- */
+/* ----------NAVBAR----------- */
+/* --------------------------------- */
+
+header {
+    background-color: #181818;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+.code-size {
+    font-size: 3rem;
+}
+.navbar {
+    color: #ffffff;
+    background-color: transparent;
+
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.logo:hover {
+    color:var(--theme-color); 
+}
+
+
+.nav-Link {
+       display: inline-block;
+       text-decoration: none;
+       padding-bottom: 0.3rem;
+      font-size: 1.2rem;
+      margin: 1rem 1.5rem;
+      color:#ffffff;
+      border-bottom: 2px solid transparent;
+
+}
+
+.nav-Link:hover {
+      color:var(--theme-color);
+      font-size: 700;
+      border-bottom: 2px solid var(--theme-color);
+      
+}
+
+.navbar-toggler {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+} 
+
+
+/* --------------------------------- */
+/* ----------INTO-SECTION----------- */
+/* --------------------------------- */
+
+.intro-section {
+    height: 80vh;
+    color: #ffffff;
+}
+
+.intro-section p,.intro-section h3 {
+    color: var(--theme-color);
+}
+
+.intro-section p{
+   font-size: 1.5rem;
+}
+
+.intro-section h3 {
+    font-size: 4rem;
+}
+
+.intro-section h4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+
+.intro-section h5 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.intro-section a {
+    display: inline-block;
+    font-size: 1.2rem;
+     padding: 1rem 2rem;
+     margin-top: 2rem;
+    color: var(--theme-color);
+    background-color: transparent;
+    border: 1px solid var(--theme-color);
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+
+.intro-section a:hover {
+     
+    color: #ffffff;
+    background-color: var(--theme-color);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    
+}
+
+
+/* ------------------------------------------ */
+/* --------------PROJECT-SECTION------------- */
+/* ------------------------------------------ */
+
+/* ----------html-css-------------- */
+
+.projects-section {
+    margin: 5rem 0
+}
+
+.projects-section h1 {
+       font-size: 3rem;
+       color: #ffffff;
+       margin-bottom: 4rem;
+       text-align: center;
+}
+
+
+.html-css {
+    margin-bottom: 4rem;
+}
+
+.html-css h2 {
+    color: var(--theme-color);
+    margin: 3rem 0;
+}
+
+.html-css .card-body {
+    color: #ffffff;
+     background-color: #181818;
+     padding-bottom: 2rem;
+}
+
+.card {
+    border: none!important;
+}
+
+.html-css .card-body h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.git-btn {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    padding-bottom: 0.1rem;
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    vertical-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.git-btn:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.git-size {
+    font-size: 1.5rem;
+}
+
+
+.live-btn {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    padding-bottom: 0rem;
+    color: #774BF6;
+    font-size: 1.3rem;
+    font-weight: 700;
+    vertical-align: center;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.live-btn:hover {
+    color: #ffffff;
+    background-color: #774BF6;
+}
+
+.live-size {
+    font-size: 1.5rem;
+}
+
+
+
+/* ------------------------------------------ */
+/* --------------BLOG-SECTION------------- */
+/* ------------------------------------------ */
+
+
+.blogs-section {
+    margin: 5rem 0;
+    margin-top: 10rem;
+}
+
+.blogs-section .card-body {
+    color: #ffffff;
+     background-color: #181818;
+     padding-bottom: 2rem;
+}
+
+.blogs-section h1 {
+       font-size: 3rem;
+       color: var(--theme-color);
+       margin-bottom: 4rem;
+       text-align: center;
+
+}
+
+
+/* ------------------------------------------ */
+/* --------------FOOTER------------- */
+/* ------------------------------------------ */
+
+footer {
+    background-color: #181818;
+    margin-top: 7rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--theme-color);
+}
+
+.social-icon-size {
+      font-size: 2rem;
+}
+
+footer h1 {
+    color: #ffffff;
+}
+
+footer span {
+    color: var(--theme-color)
+}
