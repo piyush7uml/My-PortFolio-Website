@@ -270,17 +270,9 @@ footer {
     margin-top: 7rem;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 4rem 0;
-}
 
 .social-media a {
-    display: inline-block;
-    width: 30%;
-    padding: 1rem;
+    padding: 0.8rem;
     text-decoration: none;
     color: var(--theme-color);
 }
