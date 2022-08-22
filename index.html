@@ -486,6 +486,121 @@
                     </button>
                 </div>
             </div>
+
+
+
+
+
+            <!------------------------->
+            <!--------TAILWIND-CSS------->
+            <!------------------------->
+            <div class="tailwind-css">
+                <h2>TAILWIND-CSS</h2>
+
+                <div id="carouselExampleControlsNoTouchingTailwind" class="carousel slide" data-bs-touch="false"
+                    data-wrap="false">
+                    <div class="container-fluid">
+                        <div class="carousel-inner px-2">
+
+                            <!-- first carousel items -->
+                            <!------------------------->
+                            <div class="carousel-item active">
+                                <div class="row row-cols-1 row-cols-md-2 g-5">
+
+
+                                    <!----------PAYTM-CLONE-PROJECT-1-------->
+                                    <!--------------------------->
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="./asssets/TAILWIND/paytm.png" class="card-img-top" alt="paytm">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Paytm Homepage Clone</h5>
+                                                <p class="card-text">
+                                                    <a href="https://github.com/piyush7uml/Paytm-clone-using-tailwind"
+                                                        target="_blank" class="git-btn"><i
+                                                            class="fa-brands fa-github git-size"></i>
+                                                        Github</a>
+
+                                                    <a href="https://paytm-clone-p7.netlify.app" target="_blank"
+                                                        class="live-btn"><i class="fa-solid fa-globe live-size"></i></i>
+                                                        Live</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!----------RODE-CLONE-PROJECT-2-------->
+                                    <!--------------------------->
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="./asssets/TAILWIND/rode.png" class="card-img-top" alt="rode">
+                                            <div class="card-body">
+                                                <h5 class="card-title">RODE Homepage Clone</h5>
+                                                <p class="card-text">
+                                                    <a href="https://github.com/piyush7uml/RODE-clone-using-tailwind"
+                                                        target="_blank" class="git-btn"><i
+                                                            class="fa-brands fa-github git-size"></i>
+                                                        Github</a>
+
+                                                    <a href="https://rode-clone-p7.netlify.app" target="_blank"
+                                                        class="live-btn"><i class="fa-solid fa-globe live-size"></i></i>
+                                                        Live</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- second carousel items -->
+                            <!------------------------->
+                            <div class="carousel-item">
+                                <div class="row row-cols-1 row-cols-md-2 g-5">
+
+                                    <!----------SHOPIFY-CLONE-PROJECT-3-------->
+                                    <!--------------------------->
+
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="/asssets/TAILWIND/shopify.png" class="card-img-top" alt="hp3">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Shopify Homepage Clone</h5>
+                                                <p class="card-text">
+                                                    <a href="https://github.com/piyush7uml/Shopify-clone-using-tailwind"
+                                                        target="_blank" class="git-btn"><i
+                                                            class="fa-brands fa-github git-size"></i>
+                                                        Github</a>
+
+                                                    <a href="https://shopify-clone-p7.netlify.app" target="_blank"
+                                                        class="live-btn"><i class="fa-solid fa-globe live-size"></i></i>
+                                                        Live</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- --------------------------------------- -->
+                    <!-- ----Carousel-buttons for TAILWIND-CSS---------- -->
+                    <!-- --------------------------------------- -->
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouchingTailwind" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouchingTailwind" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -642,6 +757,13 @@
         // Carousel Wrap FOR HTML & CSS
         const myCarouselElementForHtml = document.querySelector('#carouselExampleControlsNoTouchingHtml')
         const carouselForHtml = new bootstrap.Carousel(myCarouselElementForHtml, {
+            wrap: false
+        })
+
+
+        // Carousel Wrap FOR TAILWIND CSS
+        const myCarouselElementForTailwind = document.querySelector('#carouselExampleControlsNoTouchingTailwind')
+        const carouselForTailwind = new bootstrap.Carousel(myCarouselElementForTailwind, {
             wrap: false
         })
 
