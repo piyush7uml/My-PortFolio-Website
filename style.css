@@ -151,16 +151,16 @@ header {
 }
 
 
-.html-css , .tailwind-css {
+.html-css , .tailwind-css , .javascript , .mern {
     margin-bottom: 6rem;
 }
 
-.html-css  h2 , .tailwind-css h2 {
+.html-css  h2 , .tailwind-css h2 , .javascript h2 , .mern h2 {
     color: var(--theme-color);
     margin: 3rem 0;
 }
 
-.html-css .card-body , .tailwind-css .card-body{
+.html-css .card-body , .tailwind-css .card-body , .javascript .card-body , .mern .card-body{
     color: #ffffff;
      background-color: #181818;
      padding-bottom: 2rem;
@@ -170,7 +170,7 @@ header {
     border: none!important;
 }
 
-.html-css .card-body h5 ,.tailwind-css .card-body h5{
+.html-css .card-body h5 ,.tailwind-css .card-body h5 , .javascript .card-body h5 , .mern .card-body h5{
     font-size: 1.5rem;
     font-weight: 400;
 }
