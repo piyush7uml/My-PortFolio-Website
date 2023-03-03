@@ -158,6 +158,8 @@ header {
 .html-css  h4 , .tailwind-css h4 , .javascript h4 , .mern h4 {
     color: var(--theme-color);
     margin: 3rem 0;
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 .html-css .card-body , .tailwind-css .card-body , .javascript .card-body , .mern .card-body{
@@ -171,7 +173,7 @@ header {
 }
 
 .html-css .card-body h5 ,.tailwind-css .card-body h5 , .javascript .card-body h5 , .mern .card-body h5{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
